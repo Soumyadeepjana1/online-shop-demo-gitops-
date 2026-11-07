@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/Soumyadeepjana1/online-shop-demo-gitops-.git   # Replace it with your forked repo
-    targetRevision: main
+    targetRevision: master
     path: declarative_approach/online_shop
   destination:
     server: https://192.168.49.2:8443   # Replace with your Cluster Url, To get run: `argocd cluster list`
